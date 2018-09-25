@@ -4,12 +4,16 @@
   "description": "Reimplement some function of lodash",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "nyc mocha",
+    "dist": "browserify dist/pub.js -o dist/ccclodash.js",
+    "docs": "jsdoc index.js lib -r -d docs -t node_modules/docdash"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "docdash": "^1.0.0"
   }
 }
