@@ -1,4 +1,12 @@
-# ccclodash
+# ccclodash <sup>[![Version Badge][2]][1]</sup>
+
+[![Build Status][3]][4]
+[![dependency status][5]][6]
+[![dev dependency status][7]][8]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
+
+[![npm badge][11]][1]
 
 Reimplement some function of lodash, just a practice
 
@@ -52,3 +60,19 @@ $ mocha
 
   6 passing (175ms)
 ```
+
+[1]: https://npmjs.org/package/ccclodash
+[2]: http://versionbadg.es/se107a/ccclodash.svg
+[3]: https://api.travis-ci.org/se107a/ccclodash.svg
+[4]: https://travis-ci.org/se107a/ccclodash
+[5]: https://david-dm.org/se107a/ccclodash.svg
+[6]: https://david-dm.org/se107a/ccclodash
+[7]: https://david-dm.org/se107a/ccclodash/dev-status.svg
+[8]: https://david-dm.org/se107a/ccclodash?type=dev
+[9]: https://ci.testling.com/se107a/ccclodash.png
+[10]: https://ci.testling.com/se107a/ccclodash
+[11]: https://nodei.co/npm/ccclodash.png?downloads=true&stars=true
+[license-image]: http://img.shields.io/npm/l/ccclodash.svg
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/ccclodash.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=ccclodash
