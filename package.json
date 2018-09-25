@@ -11,9 +11,16 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2"
+
+  },
   "devDependencies": {
-    "chai": "^4.1.2",
     "docdash": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/se107a/ccclodash.git"
   }
 }
