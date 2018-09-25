@@ -2,7 +2,7 @@
   "name": "ccclodash",
   "version": "0.0.2",
   "description": "Reimplement some function of lodash",
-  "main": "ccclodash.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
