@@ -40,6 +40,22 @@ _.chunk(['a', 'b', 'c', 'd'], 2)= [ [ 'a', 'b' ], [ 'c', 'd' ] ]
 _.chunk(['a', 'b', 'c', 'd'], 3)= [ [ 'a', 'b', 'c' ], [ 'd' ] ]
 ```
 
+File : ex2.js
+
+```js
+const _ = require('ccclodash')
+
+console.log("_.compact([0, 1, false, 2, '', 3])=", _.compact([0, 1, false, 2, '', 3]))
+
+```
+
+Run
+
+```
+$ node ex2.js
+_.compact([0, 1, false, 2, '', 3])=[ 1, 2, 3 ]
+```
+
 ## Test
 
 ```
