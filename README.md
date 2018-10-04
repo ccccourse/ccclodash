@@ -56,6 +56,22 @@ $ node ex2.js
 _.compact([0, 1, false, 2, '', 3])=[ 1, 2, 3 ]
 ```
 
+File : ex3.js
+
+```js
+const _ = require('ccclodash')
+
+var array = [1]
+console.log("_.concat(array, 2, [3], [[4]])=",  _.concat(array, 2, [3], [[4]]))
+```
+
+Run
+
+```
+$ node ex3.js
+_.concat(array, 2, [3], [[4]])= [1, 2, [3], [[4]]]
+```
+
 ## Test
 
 ```
