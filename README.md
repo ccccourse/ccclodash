@@ -18,7 +18,7 @@ $ npm i ccclodash
 
 ## Document
 
-* https://rawgit.com/se107a/ccclodash/master/docs/-_.html
+* https://ccccourse.github.io/ccclodash/docs/-_.html
 
 ## Example
 
